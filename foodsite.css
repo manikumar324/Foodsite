@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/*....................NAVBAR SECTION...............................*/
+.total{
+    background-image: radial-gradient(#fff8db,#fae38c)
+}
+#color-1{
+    color:#323f4d;
+    font-family:roboto;
+    font-weight: 700;
+    transition:all 0.8s;
+}
+#color-2{
+    color:#323f4d;
+    font-family:roboto;
+    font-weight: 700;
+    transition:all 0.8s;
+}
+#color-3{
+    color:#323f4d;
+    font-family:roboto;
+    font-weight: 700;
+    transition:all 0.8s;
+}
+#color-4{
+    color:#323f4d;
+    font-family:roboto;
+    font-weight: 700;
+    transition:all 0.8s;
+}
+#color-1:hover,#color-2:hover,#color-3:hover,#color-4:hover{
+    transform: scale(1.2);
+}
+.set-image{
+    height:50px;
+    width:50px;
+    transition:all 0.3s;
+}
+.set-image:hover{
+    transform:scale(1.2)
+}
+    
+/*...................BANNER SECTION..............................*/
+.banner-section-background-container{
+    background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height:100vh;
+    background-size:cover;
+}
+
+
+.main-head{
+    font-size:50px;
+    font-family:roboto;
+    font-weight:bold;
+    color:white;
+    position:relative;
+    text-align: center;
+    /* animation:scroll 5s linear infinite;
+    display: none; */
+}
+/* @keyframes scroll{
+    0%{top:0;left:0}
+    100%{top:0;left:100%}
+   
+} */
+
+.main-head:hover{
+    color:palevioletred;
+}
+.para{
+    font-size:30px;
+    font-family:roboto;
+    font-weight:normal;
+    color:white;
+}
+.button-1{
+    border-radius:5px;
+    border-width:0px;
+    background-color:#d0b200;
+    height:40px;
+    width:100px;
+    color:white;
+    margin-right:20px;
+    transition: all 0.5s;
+}
+.button-1:hover{
+    transform:scale(1.2);
+    color:black;
+}
+
+.button-2{
+    border-radius:5px;
+    border-width:1px;
+    background-color:transparent;
+    height:40px;
+    width:100px;
+    color:white;
+    border-color:#d0b200;
+    transition: all 0.5s;
+}
+.button-2:hover{
+    transform:scale(1.2);
+    color:yellow;
+}
+@media (max-width:480px) {
+    /* .main-head{
+        animation:scroll 5s linear infinite;
+        display: none;
+    } */
+    .main-head-2{
+        font-size:50px;
+        font-family:roboto;
+        font-weight:bold;
+        color:white;
+        text-align: center;
+    }
+    .para{
+        font-size:20px;
+        font-family:roboto;
+        font-weight:normal;
+        color:white;
+    }
+}
+/*.......................WHY CHOOSE US SECTION ?.......................*/
+.wcu-container{
+    background: color #f9f9f9;
+}
+
+/*.wcu-background{
+    background-color:#f9f9f9;
+}
+*/
+.head-1{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    font-family:roboto;
+    position:relative;
+    /* animation:scrolling 5s linear infinite;
+    display: none; */
+}
+/* @keyframes scrolling{
+    100%{top:0;left:0}
+    0%{top:0;left:100%}
+    
+}
+.head-1-1{
+    display: none;
+} */
+.wuc-para{
+    font-size:20px;
+    font-weight:normal;
+    color:black;
+    font-family:roboto;
+}
+.card-2{
+    background-color:white;
+    border-style:solid;
+    border-width:1px;
+    border-radius:10px;
+    border-color:#e5eaf4;
+    transition:all 0.8s;
+}
+.card-2:hover{
+    transform:rotate(30deg)
+}
+@media (max-width:480px) {
+    .card-2{
+        background-color:white;
+        border-style:solid;
+        border-width:1px;
+        border-radius:10px;
+        border-color:#e5eaf4;
+        /* transition:all 5s;
+        transform:translate(-10%) */
+    }
+    /* .card-2:hover{
+        transform:translate(100%)
+    } */
+    /* .head-1{
+        animation:scrolling 5s linear infinite;
+        display: none;
+    } */
+    .head-1{
+        font-size:30px;
+        font-weight:bold;
+        color:black;
+        font-family:roboto;
+    }
+}
+.head-2{
+      font-size:20px;
+    font-weight:bold;
+    color:black;
+    font-family:roboto;
+}
+.para-2{
+     font-size:15px;
+    font-weight:normal;
+    color:black;
+    font-family:roboto;
+}
+.offers{
+    font-style:italic;
+    font-weight:bold;
+}
+
+/*.....................EXPLORE MENU SECTION.............................*/
+
+/*.explore-menu-section-container{
+    background-color:#f9f9f9;
+}
+*/
+.menu-set-image{
+    border-radius:10px;
+   
+}
+
+.menu-section-container{
+    background-color:white;
+    border-radius:20px;
+    transition:all 0.3s;
+}
+.menu-section-container:hover{
+    transform:scale(1.1)
+}
+@media (max-width:480px) {
+    .menu-section-container{
+        background-color:white;
+        border-radius:20px;
+        transition:all 3s;
+    }
+    .menu-section-container:hover{
+        transform:scale(0.2)
+    }
+    
+}
+.menu-head{
+    font-weight: bold;
+    font-size:30px;
+    font-family:Roboto;
+    color:black;
+    
+}
+.card-head{
+    font-weight:bold;
+    font-size:20px;
+    color:#323f4d;
+    
+}
+.link{
+    color:blue ;
+    
+}
+
+/*.....................PAYMENT SECTION............................*/
+/*.payment-container{
+    background-color: #f9f9f9;
+}
+*/
+.payment-image{     
+    width:80%;
+    border-radius:10px;
+    transition:all 0.9s;
+
+}
+.payment-image:hover{
+    transform:rotate(50deg)
+}
+.payment-head{
+    font-size:20px;
+    font-weight:bold;
+    font-family:roboto;
+    color:black;
+}
+
+.payment-para{
+    font-family:roboto;
+    font-weight:normal;
+    font-size:15px;
+}
+.watch-button{
+    color:white;
+    transition:all 0.5s;
+}
+.watch-button:hover{
+    transform:scale(1.2);
+}
+
+/*.......................DELIVERY SECTION.........................*/
+/*.delivery-container{
+    background: color #f9f9f9;
+}
+*/
+.delivery-image{
+    width:100%;
+    transition:all 0.9s;
+}
+.delivery-image:hover{
+    transform:rotate(-30deg)
+}
+.delivery-head{
+    font-weight:bold;
+    font-size:100%;
+    font-family:roboto;
+    font-size:20px;
+}
+.delivery-para{
+    font-size:15px;
+    font-family:roboto;
+}
+.delivery-button{
+    transition: all ease 0.8s;
+}
+.delivery-button:hover{
+    transform: scaleX(1.2);
+}
+.delivery-card-img{
+    width:50px;
+    height:50px;
+    margin-right:15px;
+    transition:all ease 0.5s;
+}
+.delivery-card-img:hover{
+    transform:scale(1.5)
+}
+
+/*.............................GIFT CARD SECTION..........................*/
+/*.gift-container{
+    background-color: #f9f9f9;
+
+}
+*/
+.gift-image{
+    width:270px;
+    margin-right:20px;
+    transition: all linear 3s;
+}
+.gift-image:hover{
+    transform:scale(-1.2)
+}
+.gift-head{
+    font-family:roboto;
+    font-size:20px;
+    font-weight:bold;
+    color:black
+}
+.gift-para{
+    font-weight:normal;
+    font-size:15px;
+    color:black;
+    font-family:roboto;
+}
+.gift-style{
+    font-size:20px;
+    font-weight:bold;
+}
+.gift-button{
+   transition: allease 0.9s;
+}
+.gift-button:hover{
+    transform: scaleY(1.2);
+}
+
+/*.............................FOLLOW SECTION..............................*/
+/*.follow-container{
+    background-color:#f9f9f9;
+}
+*/
+.follow-head{
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+
+}
+.icon{
+    font-size:40px;
+    color:orange;
+    
+}
+.icon:hover{
+   
+    box-shadow:0 0 20px orangered,0 0 40px orangered,0 0 80px orangered;
+}
+.icon-style{
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    background-color:none;
+    margin-right:40px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    padding-right: 10px;
+}
+
+/*...........................FOOTER SECTION..............................*/
+.footer-background{
+    background-color:#0d2436;
+
+}
+.footer-image{
+    width:80px;
+    height:100px;
+    transition: all ease-in-out 0.4s;
+}
+.footer-image:hover{
+    transform: scale(1.2);
+}
+.footer-head{
+    font-size:20px;
+    font-weight:bold;
+    font-family:roboto;
+    color:#959ead;
+}
+.footer-para{
+    font-size:20px;
+    font-family:roboto;
+    font-weight:normal;
+    color:#959ead;
+}
